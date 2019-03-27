@@ -1,5 +1,6 @@
 // import React, { Fragment } from 'react'
 // import A from 'next/link'
+// import { createStore } from 'redux'
 import Head from 'next/head'
 
 const Home = ()=> {
@@ -16,5 +17,10 @@ const Home = ()=> {
             </a>
         </div>
 }
+//
+// const reducer = function (state, action) {
+//     return state
+// }
 
+// const store = createStore(reducer)
 export default Home

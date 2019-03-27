@@ -14,4 +14,14 @@ if (typeof require !== 'undefined') {
 //     }
 // }
 
-module.exports = withCSS()
+// module.exports = withCSS()
+module.exports = {
+    exportPathMap:function () {
+        return {
+            '/':{page:'/'},
+            '/about':{page:'/about'},
+            '/index':{page:'/index'}
+        }
+    },
+    withCSS
+}
